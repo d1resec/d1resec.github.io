@@ -1,11 +1,8 @@
 ---
-id: 188
 title: How to Takeover Subdomains
 date: 2016-09-02T22:16:22+00:00
 author: nwalsh
 layout: post
-guid: https://nwalsh.me/?p=188
-permalink: /?p=188
 categories:
   - General
   - Security
