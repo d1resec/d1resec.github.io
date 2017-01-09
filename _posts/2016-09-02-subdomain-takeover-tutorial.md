@@ -34,13 +34,6 @@ _Subbrute does this automatically if you pass the option &#8216;-p&#8217;._
 
 ## What does a vulnerable CNAME look like?
 
-<div id="attachment_198" style="width: 310px" class="wp-caption aligncenter">
-  
-  <p class="wp-caption-text">
-    Vulnerable Heroku Instance
-  </p>
-</div>
-
 There are a few common websites that do not do verification checks on requested subdomains which means anyone can request one if it is not already taken. Detectify has a good list of these [here.](https://labs.detectify.com/2014/10/21/hostile-subdomain-takeover-using-herokugithubdesk-more/) Check the address in the CNAME field and determine if it was one of the websites that is in the link. If it is, navigate to the **subdomain of the website** **not the CNAME.** When you navigate to the subdomain if there is an indicator that there is no application, then the page is vulnerable. You can then attempt to sign up for that subdomain through whatever third party is being used.
 
 _If you navigate to the CNAME there are instances where it might look vulnerable but really is not. These applications can determine if the browser&#8217;s Host header is from the expected domain, and return a different page if it is not. There have been people reporting this as bugs but it is clearly not if you navigate to the subdomain on the website. See [this](https://hackerone.com/reports/175397) report.
