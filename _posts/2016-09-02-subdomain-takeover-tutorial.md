@@ -1,7 +1,6 @@
 ---
 title: How to Takeover Subdomains
 date: 2016-09-02T22:16:22+00:00
-author: nwalsh
 layout: post
 categories:
   - General
@@ -36,7 +35,6 @@ _Subbrute does this automatically if you pass the option &#8216;-p&#8217;._
 ## What does a vulnerable CNAME look like?
 
 <div id="attachment_198" style="width: 310px" class="wp-caption aligncenter">
-  <a href="https://nwalsh.me/wp-content/uploads/2016/09/no_such_app.png"><img class="size-medium wp-image-198" src="https://nwalsh.me/wp-content/uploads/2016/09/no_such_app-300x90.png" alt="Vulnerable Heroku Instance" width="300" height="90" srcset="https://nwalsh.me/wp-content/uploads/2016/09/no_such_app-300x90.png 300w, https://nwalsh.me/wp-content/uploads/2016/09/no_such_app.png 573w" sizes="(max-width: 300px) 100vw, 300px" /></a>
   
   <p class="wp-caption-text">
     Vulnerable Heroku Instance
