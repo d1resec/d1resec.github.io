@@ -4,8 +4,6 @@ title: 'Securing a Blog: Using LetsEncrypt to Upgrade to HTTPS'
 date: 2016-01-02T22:07:11+00:00
 author: nwalsh
 layout: post
-guid: http://nwalsh.me/?p=133
-permalink: /?p=133
 categories:
   - Securing a Blog
 tags:
@@ -46,9 +44,9 @@ Then we provide the flags to find the SSL information for the VirtualHost *:443.
 
 <pre>&lt;VirtualHost *:443&gt;
 SSLEngine on
-SSLCertificateFile /etc/letsencrypt/live/nwalsh.me/cert.pem
-SSLCertificateKeyFile /etc/letsencrypt/live/nwalsh.me/privkey.pem
-SSLCACertificateFile /etc/letsencrypt/live/nwalsh.me/chain.pem
+SSLCertificateFile /path/
+SSLCertificateKeyFile /path/
+SSLCACertificateFile /path/
 &lt;/VirtualHost&gt;
 </pre>
 
