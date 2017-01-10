@@ -10,7 +10,7 @@ tags:
   - hijacking
   - subdomain takeover
 ---
-I have been scouring the web for a good subdomain takeover tutorial but have come up short. This space apparently has not been researched publicly so I wanted to shed some light on what I have found.
+I have been scouring the web for a good subdomain takeover tutorial but have come up short. This has been researched but most of it is on a high level, which isn't useful for people wanting to know the details.
 
 ## Understanding Subdomain Takeover
 
