@@ -1,8 +1,6 @@
 ---
-id: 133
 title: 'Securing a Blog: Using LetsEncrypt to Upgrade to HTTPS'
 date: 2016-01-02T22:07:11+00:00
-author: nwalsh
 layout: post
 categories:
   - Securing a Blog
