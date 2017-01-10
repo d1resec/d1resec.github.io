@@ -1,11 +1,7 @@
 ---
-id: 102
 title: 'Summer of OSCP: A Review'
 date: 2015-07-11T06:25:17+00:00
-author: nwalsh
 layout: post
-guid: http://nwalsh.me/?p=102
-permalink: /?p=102
 categories:
   - General
 tags:
